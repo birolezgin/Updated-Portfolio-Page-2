@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    height: 100%;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+}
+
+body#bg-image:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(136, 219, 161, 0.3);
+}
+
+body#bg-image2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-weight: 400;
+}
+
+h1.lg-heading,
+h2.lg-heading,
+h3.lg-heading {
+    font-size: 5rem;
+}
+
+h1.sm-heading,
+h2.sm-heading,
+h3.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background-color: rgb(48, 44, 44);
+    box-shadow: 0px 2px 10px rgba(70, 63, 63, 0.925);
+}
+
+a {
+    color: rgb(57, 20, 219);
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.lg-heading {
+    color: black;
+}
+
+.text-secondary {
+    color: black;
+}
+
+main {
+    padding: 4rem;
+    height: 100%;
+}
+
+main#home {
+    overflow: hidden;
+}
+
+main#home h1 {
+    margin-top: 15vh;
+}
+
+main .icons {
+    margin-top: 1rem;
+}
+
+main .icons a {
+    padding: 0.4rem;
+}
+
+main .icons a:hover {
+    color: #ee331a;
+    transition: all 0.5s ease-out;
+}
+
+.sidenav-overlay {
+    display: none !important;
+}
+
+.card-about {
+    transition: .5s;
+    background: #449e69;
+}
+
+.card-about:hover i,
+h5 {
+    color: #c218;
+}
+
+.card-about:hover {
+    transform: scale(1.03);
+    background: #db221b;
+}
+
+.card-projects {
+    transition: .5s;
+    background: #449e69;
+}
+
+.card-projects:hover i,
+h5 {
+    color: #f0302d;
+}
+
+.card-projects:hover {
+    transform: scale(1.03);
+    background: #db221b;
+}
+
+.card-reveal {
+    color: black;
+}
+
+.mi {
+    padding-top: 20px;
+}
+
+.fa-envelope {
+    color:  rgb(57, 20, 219);
+    font-size: 21px;
+}
+
+.fa-mobile-alt {
+    color: rgb(57, 20, 219);
+    font-size: 22px;
+}
